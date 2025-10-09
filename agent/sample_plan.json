@@ -1,0 +1,13 @@
+{
+  "confidence": 0.85,
+  "severity": "medium",
+  "plan": [
+    {
+      "action": "block_ip",
+      "ip": "203.0.113.45",
+      "reason": "multiple failed ssh attempts",
+      "dry_run": true
+    }
+  ],
+  "explain": "Detected a brute-force pattern from 203.0.113.45"
+}
